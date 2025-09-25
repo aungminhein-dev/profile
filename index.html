@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Full Stack Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Aung Min Hein's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title mb-4">
+                            Hi, I'm <span class="text-primary">Aung Min Hein</span>
+                        </h1>
+                        <h2 class="hero-subtitle mb-4">Full Stack Developer</h2>
+                        <p class="hero-description mb-4">
+                            Specializing in PHP, Laravel, Vue.js, React, .NET, and JavaScript.
+                            I create elegant, scalable web applications that deliver exceptional user experiences.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <div class="photo-container">
+                                    <img src="./img/wall_.png" alt="Your Name" class="profile-photo">
+                                    <div class="photo-overlay">
+                                        <i class="fas fa-camera"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h4>Full Stack Developer</h4>
+                                <p>PHP • Laravel • Vue • React • .NET • JavaScript</p>
+                                <div class="profile-stats">
+                                    <div class="stat">
+                                        <span class="stat-number">4+</span>
+                                        <span class="stat-label">Years Experience</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-number">15+</span>
+                                        <span class="stat-label">Real-world Projects</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-number">100%</span>
+                                        <span class="stat-label">Client Satisfaction</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#projects" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">A showcase of my recent work and projects</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                        <div class="project-image">
+                            <img src="./img/pyac/pyac.png" alt="E-Commerce Platform" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://mmnotes.com.mm/" class="btn btn-light me-2"
+                                        onclick="event.stopPropagation()"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/appcommm/pyac_ecommerce_website"
+                                        class="btn btn-outline-light" onclick="event.stopPropagation()"><i
+                                            class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>E-Commerce Platform</h5>
+                            <div class="project-type-badges">
+                                <span class="badge badge-admin">Admin Panel</span>
+                                <span class="badge badge-frontend">Frontend</span>
+                            </div>
+                            <p>Complete e-commerce solution with Laravel admin panel and React.js frontend</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                        <div class="project-image">
+                            <img src="./img/success-area-admin.png" alt="Task Management App" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-light me-2" onclick="event.stopPropagation()"><i
+                                            class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="btn btn-outline-light" onclick="event.stopPropagation()"><i
+                                            class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Learning Management System</h5>
+                            <div class="project-type-badges">
+                                <span class="badge badge-admin">Admin Panel</span>
+                                <span class="badge badge-frontend">Frontend</span>
+                            </div>
+                            <p>Complete learning management solution with Laravel admin panel and Flutter mobile app</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Flutter</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x200/8e44ad/ecf0f1?text=API+Dashboard"
+                                alt="API Dashboard" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-light me-2" onclick="event.stopPropagation()"><i
+                                            class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="btn btn-outline-light" onclick="event.stopPropagation()"><i
+                                            class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>API Dashboard</h5>
+                            <div class="project-type-badges">
+                                <span class="badge badge-admin">Admin Panel</span>
+                                <span class="badge badge-api">API</span>
+                            </div>
+                            <p>Analytics dashboard with .NET Core admin panel and REST API</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">.NET Core</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </div>
+            </div>
+
+            <!-- Skills Overview -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="skills-overview">
+                        <div class="skill-category-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h4>Backend Development</h4>
+                            <p>Building robust server-side applications and APIs</p>
+                        </div>
+                        <div class="skill-category-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4>Frontend Development</h4>
+                            <p>Creating beautiful and responsive user interfaces</p>
+                        </div>
+                        <div class="skill-category-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Database Management</h4>
+                            <p>Designing and optimizing database systems</p>
+                        </div>
+                        <div class="skill-category-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h4>DevOps & Deployment</h4>
+                            <p>Managing cloud infrastructure and CI/CD pipelines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Skills -->
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">
+                            <i class="fas fa-server me-2"></i>Backend Development
+                        </h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <i class="fab fa-php"></i>
+                                        <span>PHP</span>
+                                    </div>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <i class="fab fa-laravel"></i>
+                                        <span>Laravel</span>
+                                    </div>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <i class="fab fa-microsoft"></i>
+                                        <span>.NET Core</span>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">
+                            <i class="fas fa-laptop-code me-2"></i>Frontend Development
+                        </h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <i class="fab fa-vuejs"></i>
+                                        <span>Vue.js</span>
+                                    </div>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <i class="fab fa-react"></i>
+                                        <span>React</span>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-name">
+                                        <i class="fab fa-js-square"></i>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Skills Grid -->
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <h4 class="text-center mb-4">Additional Skills & Tools</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag-large">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fab fa-sass"></i>
+                            <span>SASS</span>
+                        </div>
+                        <div class="skill-tag-large">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Experience Timeline</h2>
+                    <p class="section-subtitle">My professional journey and achievements</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>Senior Full Stack Developer</h5>
+                                <h6>Company Name • 2022 - Present</h6>
+                                <p>Leading development of enterprise-level applications using Laravel and Vue.js.
+                                    Mentoring junior developers and implementing best practices for scalable web
+                                    applications.</p>
+                                <ul>
+                                    <li>Developed and maintained 10+ web applications</li>
+                                    <li>Improved application performance by 40%</li>
+                                    <li>Led a team of 5 developers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>Full Stack Developer</h5>
+                                <h6>Previous Company • 2020 - 2022</h6>
+                                <p>Developed full-stack web applications using PHP, Laravel, React, and .NET
+                                    technologies. Collaborated with cross-functional teams to deliver high-quality
+                                    software solutions.</p>
+                                <ul>
+                                    <li>Built responsive web applications</li>
+                                    <li>Integrated third-party APIs</li>
+                                    <li>Optimized database queries</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>Junior Web Developer</h5>
+                                <h6>Startup Company • 2018 - 2020</h6>
+                                <p>Started my professional journey as a junior developer, learning and implementing web
+                                    development best practices while working on various client projects.</p>
+                                <ul>
+                                    <li>Learned modern web technologies</li>
+                                    <li>Worked on client projects</li>
+                                    <li>Gained experience in agile development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's discuss your next project and bring your ideas to life</p>
+                </div>
+            </div>
+
+            <!-- Contact Info Cards -->
+            <div class="row mb-5">
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h5>Email Me</h5>
+                            <p>aungminhein20202020@gmail.com</p>
+                            <a href="mailto:aungminhein20202020@gmail.com" class="contact-link">Send Email <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h5>Call Me</h5>
+                            <p>+91 8447285395</p>
+                            <a href="tel:+918447285395" class="contact-link">Call Now <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h5>Location</h5>
+                            <p>New Delhi, India</p>
+                            <a href="https://maps.app.goo.gl/zSd6BT8WPdGXMwNL9?g_st=atm" class="contact-link">View Map
+                                <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form and Info -->
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-container">
+                        <h4 class="form-title">Send me a message</h4>
+                        <p class="form-subtitle">I'm always interested in new opportunities and exciting projects</p>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" id="name" class="form-control" placeholder="Enter your name"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email">Your Email</label>
+                                        <input type="email" id="email" class="form-control"
+                                            placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" class="form-control"
+                                        placeholder="What's this about?" required>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-group">
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" class="form-control" rows="5"
+                                        placeholder="Tell me about your project..." required></textarea>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-sidebar">
+                        <div class="info-card">
+                            <h5><i class="fas fa-clock me-2"></i>Response Time</h5>
+                            <p>I typically respond within 24 hours</p>
+                        </div>
+                        <div class="info-card">
+                            <h5><i class="fas fa-calendar me-2"></i>Availability</h5>
+                            <p>Available for new projects and consultations</p>
+                        </div>
+                        <div class="info-card">
+                            <h5><i class="fas fa-globe me-2"></i>Timezone</h5>
+                            <p>Working in your timezone</p>
+                        </div>
+                        <div class="info-card">
+                            <h5><i class="fas fa-handshake me-2"></i>Let's Connect</h5>
+                            <p>Ready to discuss your project requirements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="footer-title">Your Name</h5>
+                    <p class="footer-description">Full Stack Developer specializing in PHP, Laravel, Vue.js, React,
+                        .NET, and JavaScript. Creating elegant, scalable web applications.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="footer-subtitle">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="footer-subtitle">Connect With Me</h6>
+                    <div class="social-links-footer">
+                        <a href="https://www.facebook.com/aung.min.hein.279640" class="social-link-footer"
+                            target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/aungminhein.ty" class="social-link-footer" target="_blank"
+                            rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/8447285395" class="social-link-footer" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://upwork.com/freelancers/yourprofile" class="social-link-footer" target="_blank"
+                            rel="noopener">
+                            <i class="fab fa-upwork"></i>
+                            <span>Upwork</span>
+                        </a>
+                        <a href="https://github.com/aungminhein-dev" class="social-link-footer" target="_blank"
+                            rel="noopener">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aung-min-hein-401908384/" class="social-link-footer"
+                            target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="footer-copyright">&copy; 2024 Your Name. All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <p class="footer-email">your.email@example.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Detail Modals -->
+    <!-- Project 1 Modal -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">E-Commerce Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="project-detail-image">
+                                <!-- Option 1: Carousel (Current) -->
+                                <div id="project1Carousel" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#project1Carousel" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Admin Panel"></button>
+                                        <button type="button" data-bs-target="#project1Carousel" data-bs-slide-to="1"
+                                            aria-label="Frontend"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./img/pyac/pyac_admin.png" alt="E-Commerce Admin Panel"
+                                                class="img-fluid rounded">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h6>Admin Panel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/pyac/pyac.png" alt="E-Commerce Frontend"
+                                                class="img-fluid rounded">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h6>Frontend Interface</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#project1Carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#project1Carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <div class="gallery mt-3">
+                                    <h6 class="text-muted mb-2">More Screens</h6>
+                                    <div class="gallery-grid">
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/blogs.png" alt="Blogs" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_all_orders.png" alt="All Orders" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_checkout.png" alt="Checkout" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_front.png" alt="Frontend Landing" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_login.png" alt="Login" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_order_details_cod.png" alt="Order Details (COD)"
+                                                loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_product_details.png" alt="Product Details"
+                                                loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_product_listing.png" alt="Product Listing"
+                                                loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/pyac/pyac_register.png" alt="Register" loading="lazy">
+                                        </div>
+                                        <!-- Add more images as needed -->
+                                        <!--
+                                        <div class="gallery-item">
+                                            <img src="./img/your_other_screen_1.png" alt="Checkout" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="./img/your_other_screen_2.png" alt="Order Details" loading="lazy">
+                                        </div>
+                                        -->
+                                    </div>
+                                </div>
+
+                                <!-- Option 2: Side-by-Side Images (Alternative - Comment out carousel above to use this) -->
+                                <!--
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="image-container">
+                                            <img src="./img/pyac.png" alt="Admin Panel" class="img-fluid rounded">
+                                            <div class="image-label">Admin Panel</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="image-container">
+                                            <img src="https://via.placeholder.com/400x300/2c3e50/ecf0f1?text=Frontend" alt="Frontend" class="img-fluid rounded">
+                                            <div class="image-label">Frontend</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-detail-info">
+                                <div class="project-type-badges mb-3">
+                                    <span class="badge badge-admin">Admin Panel</span>
+                                    <span class="badge badge-frontend">Frontend</span>
+                                </div>
+
+                                <h6 class="text-muted mb-3">Project Overview</h6>
+                                <p class="mb-4">A comprehensive e-commerce solution with <strong>Laravel admin
+                                        panel</strong> for content management and <strong>React.js frontend</strong> for
+                                    customer interface. Complete full-stack solution with real-time updates.</p>
+
+                                <h6 class="text-muted mb-3">Admin Panel Features</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Product Management System</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Order & Inventory Management</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>User & Role Management</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Analytics Dashboard</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Content Management</li>
+                                </ul>
+
+                                <h6 class="text-muted mb-3">Frontend Features</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-shopping-cart text-success me-2"></i>Shopping Cart & Checkout
+                                    </li>
+                                    <li><i class="fas fa-credit-card text-success me-2"></i>Payment Integration</li>
+                                    <li><i class="fas fa-mobile-alt text-success me-2"></i>Responsive Design</li>
+                                    <li><i class="fas fa-user text-success me-2"></i>User Authentication</li>
+                                </ul>
+
+                                <h6 class="text-muted mb-3">Technologies Used</h6>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Laravel</span>
+                                    <span class="tech-tag">React.js</span>
+                                    <span class="tech-tag">MySQL</span>
+                                    <span class="tech-tag">Tailwind CSS</span>
+                                    <span class="tech-tag">Bootstrap</span>
+                                    <span class="tech-tag">REST API</span>
+                                </div>
+
+                                <div class="project-links mt-4">
+                                    <a href="https://mmnotes.com.mm/" class="btn btn-primary me-2" target="_blank">
+                                        <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                                    </a>
+                                    <a href="https://github.com/appcommm/pyac_ecommerce_website"
+                                        class="btn btn-outline-dark" target="_blank">
+                                        <i class="fab fa-github me-1"></i>GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 2 Modal -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">Learning Management System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="project-detail-image">
+                                <div id="project2Carousel" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Admin Panel"></button>
+                                        <button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="1"
+                                            aria-label="Mobile App"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./img/success-area-admin.png" alt="LMS Admin Panel"
+                                                class="img-fluid rounded">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h6>Admin Panel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://via.placeholder.com/800x400/1abc9c/ecf0f1?text=Flutter+App+Landing"
+                                                alt="LMS Mobile App" class="img-fluid rounded">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h6>Mobile App (Flutter)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#project2Carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#project2Carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+                                <div class="gallery mt-3">
+                                    <h6 class="text-muted mb-2">More Screens</h6>
+                                    <div class="gallery-grid">
+                                        <!-- Replace placeholders with real screens -->
+                                        <div class="gallery-item">
+                                            <img src="https://via.placeholder.com/600x400/2c3e50/ecf0f1?text=Course+List"
+                                                alt="Course List" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="https://via.placeholder.com/600x400/34495e/ecf0f1?text=Lesson+Player"
+                                                alt="Lesson Player" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="https://via.placeholder.com/600x400/16a085/ecf0f1?text=Quiz+Screen"
+                                                alt="Quiz Screen" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-detail-info">
+                                <div class="project-type-badges mb-3">
+                                    <span class="badge badge-admin">Admin Panel</span>
+                                    <span class="badge badge-frontend">Mobile App</span>
+                                </div>
+
+                                <h6 class="text-muted mb-3">Project Overview</h6>
+                                <p class="mb-4">A complete learning management system with <strong>Laravel admin
+                                        panel</strong> for course management and <strong>Flutter mobile app</strong> for
+                                    students. Features real-time updates and comprehensive analytics.</p>
+
+                                <h6 class="text-muted mb-3">Admin Panel Features</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Course & Content Management</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Student & Teacher Management</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Assignment & Quiz System</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Progress Tracking & Analytics</li>
+                                    <li><i class="fas fa-cog text-primary me-2"></i>Notification Management</li>
+                                </ul>
+
+                                <h6 class="text-muted mb-3">Mobile App Features</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-mobile-alt text-success me-2"></i>Course Enrollment & Access
+                                    </li>
+                                    <li><i class="fas fa-video text-success me-2"></i>Video & Content Streaming</li>
+                                    <li><i class="fas fa-tasks text-success me-2"></i>Assignment Submission</li>
+                                    <li><i class="fas fa-chart-line text-success me-2"></i>Progress Tracking</li>
+                                    <li><i class="fas fa-bell text-success me-2"></i>Push Notifications</li>
+                                </ul>
+
+                                <h6 class="text-muted mb-3">Technologies Used</h6>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Laravel</span>
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">MySQL</span>
+                                    <span class="tech-tag">REST API</span>
+                                    <span class="tech-tag">Firebase</span>
+                                </div>
+
+                                <div class="project-links mt-4">
+                                    <a href="#" class="btn btn-primary me-2" target="_blank">
+                                        <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                                    </a>
+                                    <a href="#" class="btn btn-outline-dark" target="_blank">
+                                        <i class="fab fa-github me-1"></i>GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 3 Modal -->
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">API Dashboard</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="project-detail-image">
+                                <div id="project3Carousel" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#project3Carousel" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Admin Panel"></button>
+                                        <button type="button" data-bs-target="#project3Carousel" data-bs-slide-to="1"
+                                            aria-label="Analytics"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://via.placeholder.com/800x400/8e44ad/ecf0f1?text=Admin+Panel"
+                                                alt="API Dashboard Admin" class="img-fluid rounded">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h6>Admin Panel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://via.placeholder.com/800x400/9b59b6/ecf0f1?text=Analytics+Overview"
+                                                alt="Analytics Overview" class="img-fluid rounded">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h6>Analytics Overview</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#project3Carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#project3Carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+                                <div class="gallery mt-3">
+                                    <h6 class="text-muted mb-2">More Screens</h6>
+                                    <div class="gallery-grid">
+                                        <!-- Replace placeholders with real screens -->
+                                        <div class="gallery-item">
+                                            <img src="https://via.placeholder.com/600x400/2c3e50/ecf0f1?text=API+Explorer"
+                                                alt="API Explorer" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="https://via.placeholder.com/600x400/34495e/ecf0f1?text=Metrics"
+                                                alt="Metrics" loading="lazy">
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="https://via.placeholder.com/600x400/16a085/ecf0f1?text=User+Roles"
+                                                alt="User Roles" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-detail-info">
+                                <h6 class="text-muted mb-3">Project Overview</h6>
+                                <p class="mb-4">A comprehensive analytics dashboard built with .NET Core backend and
+                                    modern frontend. Provides real-time data visualization, API monitoring, and business
+                                    intelligence insights.</p>
+
+                                <h6 class="text-muted mb-3">Key Features</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>Real-time Data Visualization</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>API Performance Monitoring</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Interactive Charts & Graphs</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Custom Dashboard Creation</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Data Export Functionality</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>User Role Management</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Mobile Responsive Design</li>
+                                </ul>
+
+                                <h6 class="text-muted mb-3">Technologies Used</h6>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">.NET Core</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Chart.js</span>
+                                    <span class="tech-tag">D3.js</span>
+                                    <span class="tech-tag">SQL Server</span>
+                                    <span class="tech-tag">SignalR</span>
+                                </div>
+
+                                <div class="project-links mt-4">
+                                    <a href="#" class="btn btn-primary me-2" target="_blank">
+                                        <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                                    </a>
+                                    <a href="#" class="btn btn-outline-dark" target="_blank">
+                                        <i class="fab fa-github me-1"></i>GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
