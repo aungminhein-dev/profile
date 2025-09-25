@@ -521,6 +521,8 @@
                         <div id="form-message" class="alert d-none" role="alert"></div>
 
                         <form id="contact-form" class="contact-form">
+                            <input type="hidden" name="to_email" value="aungminhein20202020@gmail.com">
+                            <input type="hidden" name="reply_to" id="reply_to" value="">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <div class="form-group">
@@ -1091,8 +1093,15 @@
             submitButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Sending...';
             submitButton.disabled = true;
 
+            // Ensure reply_to is set from user's email (used by many EmailJS templates)
+            var userEmailInput = document.getElementById('user_email');
+            var replyToInput = document.getElementById('reply_to');
+            if (userEmailInput && replyToInput) {
+                replyToInput.value = (userEmailInput.value || '').trim();
+            }
+
             // Send email using EmailJS
-            emailjs.sendForm('service_2a2d4qg', 'service_2a2d4qg', this)
+            emailjs.sendForm('service_2a2d4qg', 'template_2rhqcc5', this)
                 .then(function () {
                     // Success
                     showMessage('Thank you! Your message has been sent successfully.', 'success');
